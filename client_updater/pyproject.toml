@@ -1,0 +1,13 @@
+[project]
+name = "poe2-loot-filter-updater"
+version = "0.1.0"
+description = "Background updater that keeps the community PoE2 loot filter current on the player's machine"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pyinstaller>=6.0",
+]

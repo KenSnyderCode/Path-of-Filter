@@ -1,0 +1,20 @@
+# Runtime settings for the PoE2 loot filter generator.
+
+base_url: "https://poe.ninja"
+user_agent: "PoE2CommunityLootFilter/0.1 (community-run, see project README)"
+timeout_seconds: 15
+max_retries: 3
+retry_backoff_seconds: 2
+
+# Currency category fetched from the exchange overview endpoint.
+currency_type: "Currency"
+
+# Unique-item categories fetched from the stash overview endpoint.
+unique_types:
+  - "UniqueWeapons"
+  - "UniqueArmours"
+  - "UniqueAccessories"
+  - "UniqueFlasks"
+  - "UniqueCharms"
+  - "UniqueJewels"
+  - "UniqueSanctumRelics"

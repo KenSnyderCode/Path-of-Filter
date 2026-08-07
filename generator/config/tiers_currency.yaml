@@ -1,0 +1,70 @@
+# Tier cutoffs and styling for the Currency category.
+# Values are in exalted-equivalent (Exalted Orb is PoE2's ~1-unit baseline currency).
+# Confirmed live against poe.ninja on 2026-08-06: Divine Orb ~368 exalted, Chaos Orb ~48 exalted,
+# Mirror of Kalandra ~1.67M exalted. These cutoffs are an initial reasonable pass and are meant
+# to be re-tuned after inspecting real generated output and player feedback each league.
+
+min_confidence: 3 # minimum volumePrimaryValue (traded-volume proxy) to trust a line's price
+
+tiers:
+  - name: Mythic
+    visibility: show
+    min_exalted: 50000
+    style:
+      font_size: 45
+      text_color: [255, 255, 255]
+      border_color: [255, 215, 0]
+      background_color: [140, 0, 0, 220]
+      sound_id: 6
+      sound_volume: 300
+      minimap_icon: "2 Yellow Star"
+      play_effect: "Yellow"
+
+  - name: Exceptional
+    visibility: show
+    min_exalted: 1000
+    style:
+      font_size: 40
+      text_color: [255, 255, 255]
+      border_color: [255, 128, 0]
+      background_color: [90, 30, 0, 200]
+      sound_id: 6
+      sound_volume: 250
+      minimap_icon: "1 Orange Star"
+      play_effect: "Orange"
+
+  - name: Valuable
+    visibility: show
+    min_exalted: 100
+    style:
+      font_size: 36
+      text_color: [255, 255, 255]
+      border_color: [255, 0, 255]
+      background_color: [60, 0, 60, 180]
+      sound_id: 4
+      sound_volume: 225
+      minimap_icon: "1 Pink Star"
+
+  - name: Notable
+    visibility: show
+    min_exalted: 10
+    style:
+      font_size: 32
+      text_color: [255, 255, 255]
+      border_color: [0, 200, 255]
+      background_color: [0, 30, 60, 160]
+
+  - name: Common
+    visibility: show
+    # Deliberately below 1.0, not at it: Exalted Orb is the ~1-exalted baseline unit, but
+    # poe.ninja's rounded primaryValue puts its own computed exalted-equivalent value at ~0.9999
+    # (confirmed live) — a cutoff of exactly 1.0 would hide the Exalted Orb itself.
+    min_exalted: 0.5
+    style:
+      font_size: 24
+      text_color: [200, 200, 200]
+      border_color: [120, 120, 120]
+
+  - name: Chaff
+    visibility: hide
+    min_exalted: 0

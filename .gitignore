@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+_smoketest/
+client_updater/pyinstaller_build/
+client_updater/pyinstaller_dist/
+.env
+*.log

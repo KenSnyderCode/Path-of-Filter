@@ -1,0 +1,64 @@
+# Tier cutoffs and styling for Unique-item base types.
+# Each PricedItem here represents a shared BaseType (e.g. "Shortsword"), valued at the highest
+# exalted-equivalent value among all uniques that can roll on it (see tiering.py docstring for why).
+# NOTE: these cutoffs are unverified placeholders — the stash/item overview endpoint's exact
+# "primary" currency unit for uniques needs to be confirmed against real output before this
+# league's numbers are trustworthy; re-tune after the first real generator run.
+
+min_confidence: 10 # minimum listingCount on the specific line that set a base type's price
+
+tiers:
+  - name: Mythic
+    visibility: show
+    min_exalted: 5000
+    style:
+      font_size: 45
+      text_color: [255, 255, 255]
+      border_color: [255, 215, 0]
+      background_color: [140, 0, 0, 220]
+      sound_id: 6
+      sound_volume: 300
+      minimap_icon: "2 Yellow Star"
+      play_effect: "Yellow"
+
+  - name: Exceptional
+    visibility: show
+    min_exalted: 1000
+    style:
+      font_size: 40
+      text_color: [255, 255, 255]
+      border_color: [255, 128, 0]
+      background_color: [90, 30, 0, 200]
+      sound_id: 6
+      sound_volume: 250
+      minimap_icon: "1 Orange Star"
+      play_effect: "Orange"
+
+  - name: Valuable
+    visibility: show
+    min_exalted: 200
+    style:
+      font_size: 36
+      text_color: [255, 255, 255]
+      border_color: [255, 0, 255]
+      background_color: [60, 0, 60, 180]
+      sound_id: 4
+      sound_volume: 225
+      minimap_icon: "1 Pink Star"
+
+  - name: Notable
+    visibility: show
+    min_exalted: 20
+    style:
+      font_size: 32
+      text_color: [255, 255, 255]
+      border_color: [0, 200, 255]
+      background_color: [0, 30, 60, 160]
+
+  - name: Common
+    visibility: show
+    min_exalted: 0
+    style:
+      font_size: 22
+      text_color: [200, 200, 200]
+      border_color: [120, 120, 120]
