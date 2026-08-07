@@ -11,9 +11,8 @@ from . import paths
 from .scheduler import register_scheduled_task, unregister_scheduled_task
 from .updater import run_update
 
-# TODO: replace REPLACE_ME/REPLACE_ME once the project has a real GitHub repo.
-DEFAULT_MANIFEST_URL = "https://raw.githubusercontent.com/REPLACE_ME/REPLACE_ME/main/dist/manifest.json"
-DEFAULT_FILTER_URL = "https://raw.githubusercontent.com/REPLACE_ME/REPLACE_ME/main/dist/community-loot-filter.filter"
+DEFAULT_MANIFEST_URL = "https://raw.githubusercontent.com/Njardolf/Path-of-Filter/main/dist/manifest.json"
+DEFAULT_FILTER_URL = "https://raw.githubusercontent.com/Njardolf/Path-of-Filter/main/dist/community-loot-filter.filter"
 DEFAULT_INTERVAL_HOURS = 4
 
 

@@ -12,8 +12,7 @@ derived from live market data rather than their curated filter content.
 
 ## For players
 
-1. Download `PoE2LootFilterUpdater.exe` from the [Releases page](../../releases) (link becomes
-   live once the project's first client build is published).
+1. Download `PoE2LootFilterUpdater.exe` from the [Releases page](https://github.com/Njardolf/Path-of-Filter/releases).
 2. Run it once: `PoE2LootFilterUpdater.exe install`
    - Windows SmartScreen will likely warn that this is an unrecognized app, since it's an
      unsigned open-source binary — click **More info → Run anyway**.
@@ -64,9 +63,6 @@ python -m venv .venv
 cd client_updater
 ..\.venv\Scripts\pyinstaller --distpath pyinstaller_dist --workpath pyinstaller_build updater.spec
 ```
-
-Before the first real release, replace the placeholder `REPLACE_ME/REPLACE_ME` GitHub org/repo in
-`client_updater/cli.py`'s `DEFAULT_MANIFEST_URL` / `DEFAULT_FILTER_URL` with the real repo path.
 
 ## License
 
