@@ -4,7 +4,12 @@ on:
   push:
     tags:
       - "client-v*"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to release (e.g. 0.1.0) — used when run manually, ignored on a tag push"
+        required: true
+        default: "0.1.0"
 
 permissions:
   contents: write
@@ -28,8 +33,19 @@ jobs:
         working-directory: client_updater
         run: pyinstaller --distpath pyinstaller_dist --workpath pyinstaller_build updater.spec
 
+      - name: Determine release tag
+        id: tag
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            echo "tag=${GITHUB_REF#refs/tags/}" >> "$GITHUB_OUTPUT"
+          else
+            echo "tag=client-v${{ inputs.version }}" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Attach to GitHub Release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ steps.tag.outputs.tag }}
           files: client_updater/pyinstaller_dist/PoE2LootFilterUpdater.exe
           generate_release_notes: true
