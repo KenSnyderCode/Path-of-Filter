@@ -3,7 +3,7 @@
 # This is an independent, community-run project — not affiliated with
 # GGG, poe.ninja, NeverSink, or FilterBlade.
 # League: Runes of Aldur
-# Generated: 2026-08-17T09:24:45.653770+00:00
+# Generated: 2026-08-18T09:05:05.173234+00:00
 #
 # Categories not covered by this filter (weapons, armour, gems, waystones, etc.)
 # intentionally fall through to the game's default visibility — this filter never
@@ -22,9 +22,9 @@ Show
     MinimapIcon 2 Yellow Star
     PlayEffect Yellow
 
-# Exceptional (6 basetypes)
+# Exceptional (7 basetypes)
 Show
-    BaseType == "Architect's Orb" "Cryptic Key" "Crystallised Corruption" "Fracturing Orb" "Perfect Chaos Orb" "Vaal Catalysing Infuser"
+    BaseType == "Architect's Orb" "Core Destabiliser" "Cryptic Key" "Crystallised Corruption" "Fracturing Orb" "Perfect Chaos Orb" "Vaal Catalysing Infuser"
     SetFontSize 40
     SetTextColor 255 255 255
     SetBorderColor 255 128 0
@@ -33,9 +33,9 @@ Show
     MinimapIcon 1 Orange Star
     PlayEffect Orange
 
-# Valuable (9 basetypes)
+# Valuable (8 basetypes)
 Show
-    BaseType == "Ancient Infuser" "Core Destabiliser" "Divine Orb" "Greater Chaos Orb" "Orb of Annulment" "Orb of Extraction" "Perfect Exalted Orb" "Vaal Armourer's Infuser" "Vaal Cultivation Orb"
+    BaseType == "Ancient Infuser" "Divine Orb" "Kopec's Orb of Sacrifice" "Orb of Annulment" "Orb of Extraction" "Perfect Exalted Orb" "Vaal Armourer's Infuser" "Vaal Cultivation Orb"
     SetFontSize 36
     SetTextColor 255 255 255
     SetBorderColor 255 0 255
@@ -43,20 +43,24 @@ Show
     PlayAlertSound 4 225
     MinimapIcon 1 Pink Star
 
-# Notable (5 basetypes)
+# Notable (6 basetypes)
 Show
-    BaseType == "Chaos Orb" "Perfect Jeweller's Orb" "Perfect Orb of Augmentation" "Perfect Regal Orb" "Vaal Blacksmith's Infuser"
+    BaseType == "Chaos Orb" "Greater Chaos Orb" "Perfect Jeweller's Orb" "Perfect Orb of Augmentation" "Perfect Regal Orb" "Vaal Blacksmith's Infuser"
     SetFontSize 32
     SetTextColor 255 255 255
     SetBorderColor 0 200 255
     SetBackgroundColor 0 30 60 160
 
-# Common (12 basetypes)
+# Common (10 basetypes)
 Show
-    BaseType == "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Exalted Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Exalted Orb" "Greater Regal Orb" "Orb of Alchemy" "Orb of Chance" "Perfect Orb of Transmutation" "Vaal Orb"
+    BaseType == "Arcanist's Etcher" "Armourer's Scrap" "Exalted Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Exalted Orb" "Greater Regal Orb" "Orb of Chance" "Perfect Orb of Transmutation" "Vaal Orb"
     SetFontSize 24
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
+
+# Chaff (2 basetypes)
+Hide
+    BaseType == "Blacksmith's Whetstone" "Orb of Alchemy"
 
 # ===== Uniques - UniqueWeapons =====
 
@@ -84,10 +88,10 @@ Show
     MinimapIcon 1 Orange Star
     PlayEffect Orange
 
-# Valuable (12 basetypes)
+# Valuable (13 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Aberrant Sledge" "Runeforged Barbed Spear" "Runeforged Composite Bow" "Runeforged Hardwood Spear" "Runeforged Oak Greathammer" "Runeforged Shortbow" "Runemastered Aberrant Sledge" "Runemastered Long Quarterstaff" "Runemastered Oak Greathammer" "Runemastered Tense Crossbow" "Runemastered Torment Club" "Shrine Sceptre"
+    BaseType == "Runeforged Composite Bow" "Runeforged Hardwood Spear" "Runeforged Morning Star" "Runeforged Shortbow" "Runeforged Tense Crossbow" "Runeforged Vicious Talisman" "Runeforged Warden Bow" "Runemastered Aberrant Sledge" "Runemastered Long Quarterstaff" "Runemastered Oak Greathammer" "Runemastered Tense Crossbow" "Runemastered Torment Club" "Shrine Sceptre"
     SetFontSize 36
     SetTextColor 255 255 255
     SetBorderColor 255 0 255
@@ -95,19 +99,19 @@ Show
     PlayAlertSound 4 225
     MinimapIcon 1 Pink Star
 
-# Notable (32 basetypes)
+# Notable (27 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Heartwood Shortbow" "Runeforged Changeling Talisman" "Runeforged Crescent Quarterstaff" "Runeforged Crumbling Maul" "Runeforged Dualstring Bow" "Runeforged Dyad Crossbow" "Runeforged Familial Talisman" "Runeforged Forge Maul" "Runeforged Hunting Spear" "Runeforged Leaden Greathammer" "Runeforged Long Quarterstaff" "Runeforged Morning Star" "Runeforged Pointed Maul" "Runeforged Recurve Bow" "Runeforged Slim Mace" "Runeforged Spiked Club" "Runeforged Steelpoint Quarterstaff" "Runeforged Studded Greatclub" "Runeforged Tense Crossbow" "Runeforged Vicious Talisman" "Runeforged War Spear" "Runeforged Warden Bow" "Runeforged Warpick" "Runeforged Winged Spear" "Runemastered Dyad Crossbow" "Runemastered Familial Talisman" "Runemastered Gothic Quarterstaff" "Runemastered Nettle Talisman" "Runemastered Studded Greatclub" "Siphoning Wand" "Stoic Sceptre" "Twisted Wand"
+    BaseType == "Aberrant Sledge" "Heartwood Shortbow" "Runeforged Changeling Talisman" "Runeforged Crescent Quarterstaff" "Runeforged Crumbling Maul" "Runeforged Dualstring Bow" "Runeforged Dyad Crossbow" "Runeforged Familial Talisman" "Runeforged Leaden Greathammer" "Runeforged Long Quarterstaff" "Runeforged Oak Greathammer" "Runeforged Pointed Maul" "Runeforged Recurve Bow" "Runeforged Slim Mace" "Runeforged Spiked Club" "Runeforged Steelpoint Quarterstaff" "Runeforged Studded Greatclub" "Runeforged War Spear" "Runeforged Warpick" "Runeforged Winged Spear" "Runemastered Familial Talisman" "Runemastered Gothic Quarterstaff" "Runemastered Nettle Talisman" "Runemastered Studded Greatclub" "Siphoning Wand" "Stoic Sceptre" "Twisted Wand"
     SetFontSize 32
     SetTextColor 255 255 255
     SetBorderColor 0 200 255
     SetBackgroundColor 0 30 60 160
 
-# Common (92 basetypes)
+# Common (81 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Acrid Wand" "Artillery Bow" "Ashbark Talisman" "Ashen Staff" "Attuned Wand" "Barbed Spear" "Bone Wand" "Changeling Talisman" "Chiming Staff" "Composite Bow" "Crescent Quarterstaff" "Crude Bow" "Crumbling Maul" "Cultist Greathammer" "Desolate Crossbow" "Dualstring Bow" "Dyad Crossbow" "Execratus Hammer" "Familial Talisman" "Fanatic Bow" "Felled Greatclub" "Flanged Mace" "Forge Maul" "Forked Spear" "Gelid Staff" "Giant Maul" "Gothic Quarterstaff" "Hardwood Spear" "Heavy Bow" "Helix Spear" "Hunting Spear" "Ironhead Spear" "Kalguuran Forgehammer" "Leaden Greathammer" "Long Quarterstaff" "Lumbering Talisman" "Makeshift Crossbow" "Marching Mace" "Morning Star" "Nettle Talisman" "Oak Greathammer" "Omen Sceptre" "Perching Staff" "Permafrost Staff" "Pointed Maul" "Pronged Spear" "Pyrophyte Staff" "Rattling Sceptre" "Ravenous Staff" "Recurve Bow" "Reflecting Staff" "Runeforged Crude Bow" "Runeforged Cultist Greathammer" "Runeforged Felled Greatclub" "Runeforged Forked Spear" "Runeforged Gothic Quarterstaff" "Runeforged Ironhead Spear" "Runeforged Kalguuran Forgehammer" "Runeforged Makeshift Crossbow" "Runeforged Marching Mace" "Runeforged Nettle Talisman" "Runeforged Temple Maul" "Runeforged Wooden Club" "Runeforged Wrapped Quarterstaff" "Runeforged Zealot Bow" "Runemastered Felled Greatclub" "Runemastered Ironhead Spear" "Runemastered Warding Quarterstaff" "Runemastered Wooden Club" "Shortbow" "Slim Mace" "Spiked Club" "Steelpoint Quarterstaff" "Studded Greatclub" "Temple Maul" "Tense Crossbow" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Vicious Talisman" "Volatile Wand" "Voltaic Staff" "War Spear" "Warden Bow" "Warding Quarterstaff" "Warpick" "Winged Spear" "Withered Wand" "Wooden Club" "Wrapped Quarterstaff" "Wyrm Quarterstaff" "Zealot Bow"
+    BaseType == "Acrid Wand" "Artillery Bow" "Ashbark Talisman" "Ashen Staff" "Attuned Wand" "Barbed Spear" "Bone Wand" "Changeling Talisman" "Chiming Staff" "Composite Bow" "Crescent Quarterstaff" "Crude Bow" "Crumbling Maul" "Cultist Greathammer" "Desolate Crossbow" "Dualstring Bow" "Dyad Crossbow" "Execratus Hammer" "Familial Talisman" "Fanatic Bow" "Felled Greatclub" "Flanged Mace" "Forge Maul" "Forked Spear" "Gelid Staff" "Giant Maul" "Gothic Quarterstaff" "Hardwood Spear" "Heavy Bow" "Helix Spear" "Hunting Spear" "Ironhead Spear" "Kalguuran Forgehammer" "Leaden Greathammer" "Long Quarterstaff" "Lumbering Talisman" "Makeshift Crossbow" "Runeforged Crude Bow" "Runeforged Cultist Greathammer" "Runeforged Felled Greatclub" "Runeforged Forge Maul" "Runeforged Forked Spear" "Runeforged Gothic Quarterstaff" "Runeforged Hunting Spear" "Runeforged Ironhead Spear" "Runeforged Kalguuran Forgehammer" "Runeforged Makeshift Crossbow" "Runeforged Marching Mace" "Runeforged Nettle Talisman" "Runeforged Temple Maul" "Runeforged Wooden Club" "Runeforged Wrapped Quarterstaff" "Runeforged Zealot Bow" "Runemastered Dyad Crossbow" "Runemastered Felled Greatclub" "Runemastered Ironhead Spear" "Runemastered Warding Quarterstaff" "Runemastered Wooden Club" "Shortbow" "Slim Mace" "Spiked Club" "Steelpoint Quarterstaff" "Studded Greatclub" "Temple Maul" "Tense Crossbow" "Torment Club" "Totemic Greatclub" "Trarthan Cannon" "Vicious Talisman" "Volatile Wand" "Voltaic Staff" "War Spear" "Warden Bow" "Warding Quarterstaff" "Warpick" "Winged Spear" "Withered Wand" "Wooden Club" "Wrapped Quarterstaff" "Wyrm Quarterstaff" "Zealot Bow"
     SetFontSize 22
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
