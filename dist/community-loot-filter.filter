@@ -3,7 +3,7 @@
 # This is an independent, community-run project — not affiliated with
 # GGG, poe.ninja, NeverSink, or FilterBlade.
 # League: Runes of Aldur
-# Generated: 2026-08-18T09:05:05.173234+00:00
+# Generated: 2026-08-19T09:07:07.064518+00:00
 #
 # Categories not covered by this filter (weapons, armour, gems, waystones, etc.)
 # intentionally fall through to the game's default visibility — this filter never
@@ -35,7 +35,7 @@ Show
 
 # Valuable (8 basetypes)
 Show
-    BaseType == "Ancient Infuser" "Divine Orb" "Kopec's Orb of Sacrifice" "Orb of Annulment" "Orb of Extraction" "Perfect Exalted Orb" "Vaal Armourer's Infuser" "Vaal Cultivation Orb"
+    BaseType == "Ancient Infuser" "Divine Orb" "Greater Chaos Orb" "Orb of Annulment" "Orb of Extraction" "Perfect Exalted Orb" "Vaal Armourer's Infuser" "Vaal Cultivation Orb"
     SetFontSize 36
     SetTextColor 255 255 255
     SetBorderColor 255 0 255
@@ -43,24 +43,24 @@ Show
     PlayAlertSound 4 225
     MinimapIcon 1 Pink Star
 
-# Notable (6 basetypes)
+# Notable (5 basetypes)
 Show
-    BaseType == "Chaos Orb" "Greater Chaos Orb" "Perfect Jeweller's Orb" "Perfect Orb of Augmentation" "Perfect Regal Orb" "Vaal Blacksmith's Infuser"
+    BaseType == "Chaos Orb" "Perfect Jeweller's Orb" "Perfect Orb of Augmentation" "Perfect Regal Orb" "Vaal Blacksmith's Infuser"
     SetFontSize 32
     SetTextColor 255 255 255
     SetBorderColor 0 200 255
     SetBackgroundColor 0 30 60 160
 
-# Common (10 basetypes)
+# Common (13 basetypes)
 Show
-    BaseType == "Arcanist's Etcher" "Armourer's Scrap" "Exalted Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Exalted Orb" "Greater Regal Orb" "Orb of Chance" "Perfect Orb of Transmutation" "Vaal Orb"
+    BaseType == "Arcanist's Etcher" "Armourer's Scrap" "Artificer's Orb" "Exalted Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Greater Exalted Orb" "Greater Regal Orb" "Lesser Jeweller's Orb" "Orb of Alchemy" "Orb of Chance" "Perfect Orb of Transmutation" "Vaal Orb"
     SetFontSize 24
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
 
-# Chaff (2 basetypes)
+# Chaff (1 basetypes)
 Hide
-    BaseType == "Blacksmith's Whetstone" "Orb of Alchemy"
+    BaseType == "Blacksmith's Whetstone"
 
 # ===== Uniques - UniqueWeapons =====
 
@@ -118,10 +118,10 @@ Show
 
 # ===== Uniques - UniqueArmours =====
 
-# Mythic (6 basetypes)
+# Mythic (7 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Ornate Gauntlets" "Runeforged Garment" "Runemastered Grand Regalia" "Runemastered Plumed Focus" "Runemastered Silk Robe" "Silk Robe"
+    BaseType == "Ornate Gauntlets" "Runeforged Garment" "Runemastered Grand Regalia" "Runemastered Plumed Focus" "Runemastered Silk Robe" "Sacred Focus" "Silk Robe"
     SetFontSize 45
     SetTextColor 255 255 255
     SetBorderColor 255 215 0
@@ -133,7 +133,7 @@ Show
 # Exceptional (5 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Runemastered Armoured Cap" "Runemastered Glacial Fortress" "Runemastered Grand Manchettes" "Runemastered Spiral Wraps" "Sacred Focus"
+    BaseType == "Grand Regalia" "Runemastered Armoured Cap" "Runemastered Glacial Fortress" "Runemastered Grand Manchettes" "Runemastered Spiral Wraps"
     SetFontSize 40
     SetTextColor 255 255 255
     SetBorderColor 255 128 0
@@ -142,10 +142,10 @@ Show
     MinimapIcon 1 Orange Star
     PlayEffect Orange
 
-# Valuable (33 basetypes)
+# Valuable (30 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Chain Tiara" "Crucible Tower Shield" "Garment" "Grand Regalia" "Moulded Mitts" "Runeforged Champion Cuirass" "Runemastered Altar Robe" "Runemastered Ancient Leggings" "Runemastered Armoured Vest" "Runemastered Array Buckler" "Runemastered Assassin Garb" "Runemastered Blacksteel Tower Shield" "Runemastered Burnished Gauntlets" "Runemastered Cinched Boots" "Runemastered Corsair Cap" "Runemastered Corvus Mantle" "Runemastered Covert Hood" "Runemastered Embroidered Gloves" "Runemastered Enlightened Robe" "Runemastered Explorer Armour" "Runemastered Fine Bracers" "Runemastered Furtive Wraps" "Runemastered Heroic Armour" "Runemastered Intricate Crest Shield" "Runemastered Knight Armour" "Runemastered Primal Markings" "Runemastered Scale Mail" "Runemastered Smuggler Coat" "Runemastered Tribal Mask" "Runemastered Trimmed Greaves" "Runemastered Viper Cap" "Runemastered Woven Focus" "Tribal Mask"
+    BaseType == "Chain Tiara" "Crucible Tower Shield" "Garment" "Runemastered Altar Robe" "Runemastered Ancient Leggings" "Runemastered Armoured Vest" "Runemastered Array Buckler" "Runemastered Assassin Garb" "Runemastered Cinched Boots" "Runemastered Corsair Cap" "Runemastered Corvus Mantle" "Runemastered Covert Hood" "Runemastered Embroidered Gloves" "Runemastered Enlightened Robe" "Runemastered Explorer Armour" "Runemastered Fine Bracers" "Runemastered Furtive Wraps" "Runemastered Heraldric Tower Shield" "Runemastered Heroic Armour" "Runemastered Intricate Crest Shield" "Runemastered Knight Armour" "Runemastered Primal Markings" "Runemastered Sacrificial Regalia" "Runemastered Scale Mail" "Runemastered Smuggler Coat" "Runemastered Tribal Mask" "Runemastered Trimmed Greaves" "Runemastered Viper Cap" "Runemastered Woven Focus" "Tribal Mask"
     SetFontSize 36
     SetTextColor 255 255 255
     SetBorderColor 255 0 255
@@ -153,19 +153,19 @@ Show
     PlayAlertSound 4 225
     MinimapIcon 1 Pink Star
 
-# Notable (82 basetypes)
+# Notable (77 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Armoured Cap" "Array Buckler" "Brimmed Helm" "Champion Cuirass" "Decorated Helm" "Fine Bracers" "Glacial Fortress" "Grand Manchettes" "Ornate Ringmail" "Primal Markings" "Primed Quiver" "Runeforged Conqueror Plate" "Runeforged Fur Plate" "Runemastered Aged Cuffs" "Runemastered Ancestral Mail" "Runemastered Anchorite Garb" "Runemastered Ancient Visor" "Runemastered Antler Focus" "Runemastered Barricade Tower Shield" "Runemastered Brimmed Helm" "Runemastered Cleric Vestments" "Runemastered Crucible Tower Shield" "Runemastered Cultist Crown" "Runemastered Decorated Helm" "Runemastered Doubled Gauntlets" "Runemastered Emblem Crest Shield" "Runemastered Exquisite Vest" "Runemastered Feathered Sandals" "Runemastered Feathered Tiara" "Runemastered Felt Cap" "Runemastered Fierce Greathelm" "Runemastered Gauze Wraps" "Runemastered Gilded Vestments" "Runemastered Gold Circlet" "Runemastered Havoc Raiment" "Runemastered Heavy Crown" "Runemastered Heraldric Tower Shield" "Runemastered Hewn Mask" "Runemastered Hunting Shoes" "Runemastered Iron Buckler" "Runemastered Iron Crown" "Runemastered Ironclad Vestments" "Runemastered Jade Tiara" "Runemastered Jingling Crest Shield" "Runemastered Laced Boots" "Runemastered Lattice Sandals" "Runemastered Layered Gauntlets" "Runemastered Leather Buckler" "Runemastered Leatherbound Hood" "Runemastered Linen Wraps" "Runemastered Marabout Garb" "Runemastered Martyr Crown" "Runemastered Omen Crest Shield" "Runemastered Ornate Buckler" "Runemastered Ornate Ringmail" "Runemastered Pathfinder Coat" "Runemastered Plated Raiment" "Runemastered Riveted Mitts" "Runemastered Rope Cuffs" "Runemastered Sacrificial Regalia" "Runemastered Scalper's Jacket" "Runemastered Serpentscale Coat" "Runemastered Shaman Mantle" "Runemastered Shrouded Vest" "Runemastered Spined Bracers" "Runemastered Spired Greathelm" "Runemastered Stacked Sabatons" "Runemastered Stocky Mitts" "Runemastered Strider Vest" "Runemastered Tattered Robe" "Runemastered Tenebrous Crown" "Runemastered Threaded Shoes" "Runemastered Utility Wraps" "Runemastered Vaal Cuirass" "Runemastered Vaal Tower Shield" "Runemastered Vagabond Armour" "Runemastered Velvet Cap" "Runemastered Vermeil Circlet" "Runemastered Voodoo Focus" "Runemastered Wrapped Sandals" "Sacrificial Regalia" "Spiral Wraps"
+    BaseType == "Armoured Cap" "Array Buckler" "Brimmed Helm" "Champion Cuirass" "Conqueror Plate" "Decorated Helm" "Fine Bracers" "Glacial Fortress" "Grand Manchettes" "Moulded Mitts" "Ornate Ringmail" "Primed Quiver" "Runeforged Champion Cuirass" "Runeforged Conqueror Plate" "Runeforged Fur Plate" "Runemastered Aged Cuffs" "Runemastered Ancestral Mail" "Runemastered Anchorite Garb" "Runemastered Ancient Visor" "Runemastered Antler Focus" "Runemastered Blacksteel Tower Shield" "Runemastered Brimmed Helm" "Runemastered Cleric Vestments" "Runemastered Crucible Tower Shield" "Runemastered Decorated Helm" "Runemastered Doubled Gauntlets" "Runemastered Emblem Crest Shield" "Runemastered Exquisite Vest" "Runemastered Feathered Sandals" "Runemastered Feathered Tiara" "Runemastered Felt Cap" "Runemastered Gauze Wraps" "Runemastered Gilded Vestments" "Runemastered Gold Circlet" "Runemastered Havoc Raiment" "Runemastered Heavy Crown" "Runemastered Hewn Mask" "Runemastered Hunting Shoes" "Runemastered Iron Buckler" "Runemastered Iron Crown" "Runemastered Ironclad Vestments" "Runemastered Jade Tiara" "Runemastered Jingling Crest Shield" "Runemastered Laced Boots" "Runemastered Lattice Sandals" "Runemastered Layered Gauntlets" "Runemastered Leather Buckler" "Runemastered Leatherbound Hood" "Runemastered Linen Wraps" "Runemastered Marabout Garb" "Runemastered Martyr Crown" "Runemastered Ornate Buckler" "Runemastered Ornate Ringmail" "Runemastered Pathfinder Coat" "Runemastered Plated Raiment" "Runemastered Riveted Mitts" "Runemastered Rope Cuffs" "Runemastered Scalper's Jacket" "Runemastered Serpentscale Coat" "Runemastered Shaman Mantle" "Runemastered Shrouded Vest" "Runemastered Spined Bracers" "Runemastered Spired Greathelm" "Runemastered Stacked Sabatons" "Runemastered Stocky Mitts" "Runemastered Strider Vest" "Runemastered Tattered Robe" "Runemastered Tenebrous Crown" "Runemastered Threaded Shoes" "Runemastered Utility Wraps" "Runemastered Vaal Cuirass" "Runemastered Vaal Tower Shield" "Runemastered Velvet Cap" "Runemastered Vermeil Circlet" "Runemastered Voodoo Focus" "Runemastered Wrapped Sandals" "Spiral Wraps"
     SetFontSize 32
     SetTextColor 255 255 255
     SetBorderColor 0 200 255
     SetBackgroundColor 0 30 60 160
 
-# Common (291 basetypes)
+# Common (297 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Aged Cuffs" "Altar Robe" "Ancestral Mail" "Anchorite Garb" "Ancient Leggings" "Ancient Mail" "Ancient Visor" "Antler Focus" "Armoured Vest" "Assassin Garb" "Barricade Tower Shield" "Beaded Circlet" "Blacksteel Tower Shield" "Blazon Crest Shield" "Blunt Quiver" "Bolstered Mitts" "Bone Raiment" "Braced Sabatons" "Braced Tower Shield" "Broadhead Quiver" "Bronze Greaves" "Burnished Gauntlets" "Chain Mail" "Cinched Boots" "Cleric Vestments" "Cloaked Mail" "Closed Helm" "Conqueror Plate" "Corsair Cap" "Corvus Mantle" "Covered Sabatons" "Covert Hood" "Cowled Helm" "Crescent Targe" "Crystal Focus" "Cultist Crown" "Death Mask" "Doubled Gauntlets" "Elementalist Robe" "Elite Greathelm" "Emblem Crest Shield" "Embossed Boots" "Embroidered Gloves" "Engraved Bracers" "Engraved Focus" "Enlightened Robe" "Explorer Armour" "Exquisite Vest" "Face Mask" "Feathered Robe" "Feathered Sandals" "Feathered Tiara" "Felt Cap" "Fierce Greathelm" "Fire Quiver" "Firm Bracers" "Full Plate" "Fur Plate" "Furtive Wraps" "Gauze Wraps" "Gilded Vestments" "Gold Circlet" "Goldcast Cuffs" "Grand Cuisses" "Grand Visage" "Guarded Helm" "Hardwood Targe" "Havoc Raiment" "Heavy Crown" "Heraldric Tower Shield" "Hermit Garb" "Heroic Armour" "Hewn Mask" "Hexer's Robe" "Hooded Mask" "Horned Crown" "Hunter Hood" "Hunting Shoes" "Intricate Crest Shield" "Intricate Gloves" "Iron Buckler" "Iron Crown" "Iron Cuirass" "Iron Greaves" "Jade Tiara" "Jewelled Gloves" "Jingling Crest Shield" "Kalguuran Cuffs" "Keth Raiment" "Knight Armour" "Lace Hood" "Laced Boots" "Lattice Sandals" "Layered Gauntlets" "Leather Buckler" "Leather Vest" "Leatherbound Hood" "Linen Wraps" "Lizardscale Boots" "Magus Tiara" "Mail Sabatons" "Mail Vestments" "Marabout Garb" "Maraketh Cuirass" "Martyr Crown" "Omen Crest Shield" "Ornate Buckler" "Painted Tower Shield" "Pathfinder Coat" "Pauascale Gloves" "Penetrating Quiver" "Pilgrim Vestments" "Plate Gauntlets" "Plated Buckler" "Plated Raiment" "Plated Vestments" "Quilted Vest" "Rampart Tower Shield" "Revered Vestments" "Rhoahide Coat" "Ridged Buckler" "Ringmail Gauntlets" "Riveted Mitts" "Rogue Armour" "Rope Cuffs" "Rough Greaves" "Runeforged Lace Hood" "Runemastered Ancient Mail" "Runemastered Beaded Circlet" "Runemastered Blazon Crest Shield" "Runemastered Bolstered Mitts" "Runemastered Bone Raiment" "Runemastered Braced Sabatons" "Runemastered Braced Tower Shield" "Runemastered Bronze Greaves" "Runemastered Chain Mail" "Runemastered Cloaked Mail" "Runemastered Covered Sabatons" "Runemastered Cowled Helm" "Runemastered Crescent Targe" "Runemastered Crystal Focus" "Runemastered Death Mask" "Runemastered Elementalist Robe" "Runemastered Elite Greathelm" "Runemastered Embossed Boots" "Runemastered Engraved Focus" "Runemastered Face Mask" "Runemastered Feathered Robe" "Runemastered Firm Bracers" "Runemastered Full Plate" "Runemastered Goldcast Cuffs" "Runemastered Guarded Helm" "Runemastered Hardwood Targe" "Runemastered Hermit Garb" "Runemastered Hexer's Robe" "Runemastered Hooded Mask" "Runemastered Horned Crown" "Runemastered Hunter Hood" "Runemastered Intricate Gloves" "Runemastered Iron Cuirass" "Runemastered Iron Greaves" "Runemastered Jewelled Gloves" "Runemastered Keth Raiment" "Runemastered Leather Vest" "Runemastered Lizardscale Boots" "Runemastered Magus Tiara" "Runemastered Mail Sabatons" "Runemastered Mail Vestments" "Runemastered Maraketh Cuirass" "Runemastered Painted Tower Shield" "Runemastered Pauascale Gloves" "Runemastered Pilgrim Vestments" "Runemastered Plate Gauntlets" "Runemastered Plated Buckler" "Runemastered Quilted Vest" "Runemastered Rampart Tower Shield" "Runemastered Revered Vestments" "Runemastered Rhoahide Coat" "Runemastered Ridged Buckler" "Runemastered Ringmail Gauntlets" "Runemastered Rogue Armour" "Runemastered Rough Greaves" "Runemastered Rusted Cuirass" "Runemastered Rusted Greathelm" "Runemastered Sacrificial Mantle" "Runemastered Scout's Vest" "Runemastered Sectioned Bracers" "Runemastered Secured Leggings" "Runemastered Shabby Hood" "Runemastered Shielded Helm" "Runemastered Sigil Crest Shield" "Runemastered Silk Slippers" "Runemastered Soldier Greathelm" "Runemastered Solid Mask" "Runemastered Sombre Gloves" "Runemastered Spiked Buckler" "Runemastered Spiritbone Crown" "Runemastered Splintered Tower Shield" "Runemastered Steel Plate" "Runemastered Stitched Gloves" "Runemastered Stone Greaves" "Runemastered Straw Sandals" "Runemastered Studded Vest" "Runemastered Suede Bracers" "Runemastered Tempered Mitts" "Runemastered Tideseer Mantle" "Runemastered Titan Mitts" "Runemastered Torn Gloves" "Runemastered Twig Circlet" "Runemastered Twig Focus" "Runemastered Veiled Mask" "Runemastered Velour Shoes" "Runemastered Venerable Defender" "Runemastered Verisium Cuffs" "Runemastered Visored Helm" "Runemastered Votive Raiment" "Runemastered Warrior Greathelm" "Runemastered Waxed Jacket" "Runemastered Wayfarer Jacket" "Runemastered Wicker Tiara" "Runemastered Wooden Buckler" "Runemastered Wrapped Greathelm" "Rusted Cuirass" "Rusted Greathelm" "Sacral Quiver" "Sacrificial Mantle" "Scale Mail" "Scalper's Jacket" "Scout's Vest" "Sectioned Bracers" "Secured Leggings" "Serpentscale Coat" "Shabby Hood" "Shaman Mantle" "Shielded Helm" "Shrouded Vest" "Sigil Crest Shield" "Silk Slippers" "Smuggler Coat" "Soldier Greathelm" "Solid Mask" "Sombre Gloves" "Spiked Buckler" "Spined Bracers" "Spired Greathelm" "Spiritbone Crown" "Splintered Tower Shield" "Stacked Sabatons" "Steel Plate" "Stitched Gloves" "Stocky Mitts" "Stone Greaves" "Straw Sandals" "Strider Vest" "Studded Vest" "Suede Bracers" "Tattered Robe" "Tempered Mitts" "Tenebrous Crown" "Tethering Bands" "Threaded Shoes" "Tideseer Mantle" "Titan Mitts" "Tonal Focus" "Torn Gloves" "Toxic Quiver" "Trimmed Greaves" "Twig Circlet" "Twig Focus" "Utility Wraps" "Vaal Cuirass" "Vaal Tower Shield" "Vagabond Armour" "Veiled Mask" "Velour Shoes" "Velvet Cap" "Venerable Defender" "Vermeil Circlet" "Viper Cap" "Visceral Quiver" "Visored Helm" "Voodoo Focus" "Votive Raiment" "Warrior Greathelm" "Waxed Jacket" "Wayfarer Jacket" "Wicker Tiara" "Wooden Buckler" "Woven Focus" "Wrapped Greathelm" "Wrapped Sandals"
+    BaseType == "Aged Cuffs" "Altar Robe" "Ancestral Mail" "Anchorite Garb" "Ancient Leggings" "Ancient Mail" "Ancient Visor" "Antler Focus" "Armoured Vest" "Assassin Garb" "Barricade Tower Shield" "Beaded Circlet" "Blacksteel Tower Shield" "Blazon Crest Shield" "Blunt Quiver" "Bolstered Mitts" "Bone Raiment" "Braced Sabatons" "Braced Tower Shield" "Broadhead Quiver" "Bronze Greaves" "Burnished Gauntlets" "Chain Mail" "Cinched Boots" "Cleric Vestments" "Cloaked Mail" "Closed Helm" "Corsair Cap" "Corvus Mantle" "Covered Sabatons" "Covert Hood" "Cowled Helm" "Crescent Targe" "Crystal Focus" "Cultist Crown" "Death Mask" "Doubled Gauntlets" "Elementalist Robe" "Elite Greathelm" "Emblem Crest Shield" "Embossed Boots" "Embroidered Gloves" "Engraved Bracers" "Engraved Focus" "Enlightened Robe" "Explorer Armour" "Exquisite Vest" "Face Mask" "Feathered Robe" "Feathered Sandals" "Feathered Tiara" "Felt Cap" "Fierce Greathelm" "Fire Quiver" "Firm Bracers" "Full Plate" "Fur Plate" "Furtive Wraps" "Gauze Wraps" "Gilded Vestments" "Gold Circlet" "Goldcast Cuffs" "Grand Cuisses" "Grand Visage" "Guarded Helm" "Hardwood Targe" "Havoc Raiment" "Heavy Crown" "Heraldric Tower Shield" "Hermit Garb" "Heroic Armour" "Hewn Mask" "Hexer's Robe" "Hooded Mask" "Horned Crown" "Hunter Hood" "Hunting Shoes" "Intricate Crest Shield" "Intricate Gloves" "Iron Buckler" "Iron Crown" "Iron Cuirass" "Iron Greaves" "Jade Tiara" "Jewelled Gloves" "Jingling Crest Shield" "Kalguuran Cuffs" "Keth Raiment" "Knight Armour" "Lace Hood" "Laced Boots" "Lattice Sandals" "Layered Gauntlets" "Leather Buckler" "Leather Vest" "Leatherbound Hood" "Linen Wraps" "Lizardscale Boots" "Magus Tiara" "Mail Sabatons" "Mail Vestments" "Marabout Garb" "Maraketh Cuirass" "Martyr Crown" "Omen Crest Shield" "Ornate Buckler" "Painted Tower Shield" "Pathfinder Coat" "Pauascale Gloves" "Penetrating Quiver" "Pilgrim Vestments" "Plate Gauntlets" "Plated Buckler" "Plated Raiment" "Plated Vestments" "Primal Markings" "Quilted Vest" "Rampart Tower Shield" "Revered Vestments" "Rhoahide Coat" "Ridged Buckler" "Ringmail Gauntlets" "Riveted Mitts" "Rogue Armour" "Rope Cuffs" "Rough Greaves" "Runeforged Lace Hood" "Runemastered Ancient Mail" "Runemastered Barricade Tower Shield" "Runemastered Beaded Circlet" "Runemastered Blazon Crest Shield" "Runemastered Bolstered Mitts" "Runemastered Bone Raiment" "Runemastered Braced Sabatons" "Runemastered Braced Tower Shield" "Runemastered Bronze Greaves" "Runemastered Chain Mail" "Runemastered Cloaked Mail" "Runemastered Covered Sabatons" "Runemastered Cowled Helm" "Runemastered Crescent Targe" "Runemastered Crystal Focus" "Runemastered Cultist Crown" "Runemastered Death Mask" "Runemastered Elementalist Robe" "Runemastered Elite Greathelm" "Runemastered Embossed Boots" "Runemastered Engraved Focus" "Runemastered Face Mask" "Runemastered Feathered Robe" "Runemastered Fierce Greathelm" "Runemastered Firm Bracers" "Runemastered Full Plate" "Runemastered Goldcast Cuffs" "Runemastered Guarded Helm" "Runemastered Hardwood Targe" "Runemastered Hermit Garb" "Runemastered Hexer's Robe" "Runemastered Hooded Mask" "Runemastered Horned Crown" "Runemastered Hunter Hood" "Runemastered Intricate Gloves" "Runemastered Iron Cuirass" "Runemastered Iron Greaves" "Runemastered Jewelled Gloves" "Runemastered Keth Raiment" "Runemastered Leather Vest" "Runemastered Lizardscale Boots" "Runemastered Magus Tiara" "Runemastered Mail Sabatons" "Runemastered Mail Vestments" "Runemastered Maraketh Cuirass" "Runemastered Omen Crest Shield" "Runemastered Painted Tower Shield" "Runemastered Pauascale Gloves" "Runemastered Pilgrim Vestments" "Runemastered Plate Gauntlets" "Runemastered Plated Buckler" "Runemastered Quilted Vest" "Runemastered Rampart Tower Shield" "Runemastered Revered Vestments" "Runemastered Rhoahide Coat" "Runemastered Ridged Buckler" "Runemastered Ringmail Gauntlets" "Runemastered Rogue Armour" "Runemastered Rough Greaves" "Runemastered Rusted Cuirass" "Runemastered Rusted Greathelm" "Runemastered Sacrificial Mantle" "Runemastered Scout's Vest" "Runemastered Sectioned Bracers" "Runemastered Secured Leggings" "Runemastered Shabby Hood" "Runemastered Shielded Helm" "Runemastered Sigil Crest Shield" "Runemastered Silk Slippers" "Runemastered Soldier Greathelm" "Runemastered Solid Mask" "Runemastered Sombre Gloves" "Runemastered Spiked Buckler" "Runemastered Spiritbone Crown" "Runemastered Splintered Tower Shield" "Runemastered Steel Plate" "Runemastered Stitched Gloves" "Runemastered Stone Greaves" "Runemastered Straw Sandals" "Runemastered Studded Vest" "Runemastered Suede Bracers" "Runemastered Tempered Mitts" "Runemastered Tideseer Mantle" "Runemastered Titan Mitts" "Runemastered Torn Gloves" "Runemastered Twig Circlet" "Runemastered Twig Focus" "Runemastered Vagabond Armour" "Runemastered Veiled Mask" "Runemastered Velour Shoes" "Runemastered Venerable Defender" "Runemastered Verisium Cuffs" "Runemastered Visored Helm" "Runemastered Votive Raiment" "Runemastered Warrior Greathelm" "Runemastered Waxed Jacket" "Runemastered Wayfarer Jacket" "Runemastered Wicker Tiara" "Runemastered Wooden Buckler" "Runemastered Wrapped Greathelm" "Rusted Cuirass" "Rusted Greathelm" "Sacral Quiver" "Sacrificial Mantle" "Sacrificial Regalia" "Scale Mail" "Scalper's Jacket" "Scout's Vest" "Sectioned Bracers" "Secured Leggings" "Serpentscale Coat" "Shabby Hood" "Shaman Mantle" "Shielded Helm" "Shrouded Vest" "Sigil Crest Shield" "Silk Slippers" "Smuggler Coat" "Soldier Greathelm" "Solid Mask" "Sombre Gloves" "Spiked Buckler" "Spined Bracers" "Spired Greathelm" "Spiritbone Crown" "Splintered Tower Shield" "Stacked Sabatons" "Steel Plate" "Stitched Gloves" "Stocky Mitts" "Stone Greaves" "Straw Sandals" "Strider Vest" "Studded Vest" "Suede Bracers" "Tattered Robe" "Tempered Mitts" "Tenebrous Crown" "Tethering Bands" "Threaded Shoes" "Tideseer Mantle" "Titan Mitts" "Tonal Focus" "Torn Gloves" "Toxic Quiver" "Trimmed Greaves" "Twig Circlet" "Twig Focus" "Utility Wraps" "Vaal Cuirass" "Vaal Tower Shield" "Vagabond Armour" "Veiled Mask" "Velour Shoes" "Velvet Cap" "Venerable Defender" "Vermeil Circlet" "Viper Cap" "Visceral Quiver" "Visored Helm" "Voodoo Focus" "Votive Raiment" "Warrior Greathelm" "Waxed Jacket" "Wayfarer Jacket" "Wicker Tiara" "Wooden Buckler" "Woven Focus" "Wrapped Greathelm" "Wrapped Sandals"
     SetFontSize 22
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
@@ -196,10 +196,10 @@ Show
     MinimapIcon 1 Orange Star
     PlayEffect Orange
 
-# Valuable (2 basetypes)
+# Valuable (1 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Runemastered Heavy Belt" "Sapphire Ring"
+    BaseType == "Sapphire Ring"
     SetFontSize 36
     SetTextColor 255 255 255
     SetBorderColor 255 0 255
@@ -207,19 +207,19 @@ Show
     PlayAlertSound 4 225
     MinimapIcon 1 Pink Star
 
-# Notable (10 basetypes)
+# Notable (8 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Abyssal Signet" "Amethyst Ring" "Bloodstone Amulet" "Jade Amulet" "Pearl Ring" "Runemastered Veridical Chain" "Solar Amulet" "Stellar Amulet" "Two-Stone Ring" "Veridical Chain"
+    BaseType == "Amethyst Ring" "Bloodstone Amulet" "Jade Amulet" "Pearl Ring" "Runemastered Heavy Belt" "Solar Amulet" "Two-Stone Ring" "Veridical Chain"
     SetFontSize 32
     SetTextColor 255 255 255
     SetBorderColor 0 200 255
     SetBackgroundColor 0 30 60 160
 
-# Common (20 basetypes)
+# Common (23 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Amber Amulet" "Azure Amulet" "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Gold Amulet" "Gold Ring" "Iron Ring" "Lapis Amulet" "Lazuli Ring" "Linen Belt" "Long Belt" "Lunar Amulet" "Mail Belt" "Ornate Belt" "Plate Belt" "Rawhide Belt" "Ruby Ring" "Topaz Ring"
+    BaseType == "Abyssal Signet" "Amber Amulet" "Azure Amulet" "Crimson Amulet" "Double Belt" "Emerald Ring" "Fine Belt" "Gold Amulet" "Gold Ring" "Iron Ring" "Lapis Amulet" "Lazuli Ring" "Linen Belt" "Long Belt" "Lunar Amulet" "Mail Belt" "Ornate Belt" "Plate Belt" "Rawhide Belt" "Ruby Ring" "Runemastered Veridical Chain" "Stellar Amulet" "Topaz Ring"
     SetFontSize 22
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
@@ -238,19 +238,10 @@ Show
     MinimapIcon 1 Orange Star
     PlayEffect Orange
 
-# Notable (1 basetypes)
+# Common (4 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Gargantuan Mana Flask"
-    SetFontSize 32
-    SetTextColor 255 255 255
-    SetBorderColor 0 200 255
-    SetBackgroundColor 0 30 60 160
-
-# Common (3 basetypes)
-Show
-    Rarity == Unique
-    BaseType == "Gargantuan Life Flask" "Transcendent Mana Flask" "Ultimate Mana Flask"
+    BaseType == "Gargantuan Life Flask" "Gargantuan Mana Flask" "Transcendent Mana Flask" "Ultimate Mana Flask"
     SetFontSize 22
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
@@ -269,19 +260,19 @@ Show
     MinimapIcon 1 Orange Star
     PlayEffect Orange
 
-# Notable (3 basetypes)
+# Notable (2 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Silver Charm" "Stone Charm" "Thawing Charm"
+    BaseType == "Silver Charm" "Stone Charm"
     SetFontSize 32
     SetTextColor 255 255 255
     SetBorderColor 0 200 255
     SetBackgroundColor 0 30 60 160
 
-# Common (8 basetypes)
+# Common (9 basetypes)
 Show
     Rarity == Unique
-    BaseType == "Amethyst Charm" "Antidote Charm" "Dousing Charm" "Grounding Charm" "Ruby Charm" "Sapphire Charm" "Staunching Charm" "Topaz Charm"
+    BaseType == "Amethyst Charm" "Antidote Charm" "Dousing Charm" "Grounding Charm" "Ruby Charm" "Sapphire Charm" "Staunching Charm" "Thawing Charm" "Topaz Charm"
     SetFontSize 22
     SetTextColor 200 200 200
     SetBorderColor 120 120 120
@@ -337,17 +328,16 @@ Show
     MinimapIcon 2 Yellow Star
     PlayEffect Yellow
 
-# Exceptional (1 basetypes)
+# Valuable (1 basetypes)
 Show
     Rarity == Unique
     BaseType == "Vase Relic"
-    SetFontSize 40
+    SetFontSize 36
     SetTextColor 255 255 255
-    SetBorderColor 255 128 0
-    SetBackgroundColor 90 30 0 200
-    PlayAlertSound 6 250
-    MinimapIcon 1 Orange Star
-    PlayEffect Orange
+    SetBorderColor 255 0 255
+    SetBackgroundColor 60 0 60 180
+    PlayAlertSound 4 225
+    MinimapIcon 1 Pink Star
 
 # Common (3 basetypes)
 Show
